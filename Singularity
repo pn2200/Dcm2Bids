@@ -38,7 +38,7 @@ Maintainer Christophe Bedetti <christophe.bedetti@montreal.ca>
     #Install dcm2bids from github
     cd /usr/local/src
     git clone https://github.com/pn2200/Dcm2Bids.git
-    cd Dcm2Bids && pip install --user .
+    cd Dcm2Bids && /usr/local/bin/pip install .
 
 
 %runscript
